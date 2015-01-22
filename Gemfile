@@ -6,7 +6,7 @@ gem 'twitter-bootstrap-rails'
 gem 'devise'
 gem 'high_voltage'
 gem 'smarter_csv'
-
+gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
