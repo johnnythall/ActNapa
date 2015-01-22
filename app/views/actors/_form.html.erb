@@ -1,0 +1,150 @@
+<%= form_for @actor, :html => { :class => "form-horizontal actor" } do |f| %>
+
+    <% if @actor.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@actor.errors.count, "error") %> prohibited this actor from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @actor.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="control-group">
+    <%= f.label :first_name, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :first_name, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:first_name]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :last_name, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :last_name, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:last_name]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :email, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :email, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:email]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :phone, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :phone, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:phone]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :city_of_residence, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :city_of_residence, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:city_of_residence]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :sex_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.collection_select :sex_id, Sex.order(:title),:id,:title, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:sex_id]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :ethnicity_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.collection_select :ethnicity_id, Ethnicity.order(:title),:id,:title, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:ethnicity_id]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :height, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :height, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:height]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :age_min, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :age_min, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:age_min]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :age_max, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :age_max, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:age_max]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :hair_color, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :hair_color, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:hair_color]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :eye_color, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :eye_color, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:eye_color]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :website, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :website, :class => 'form-control', :placeholder => "optional" %>
+    </div>
+    <%= error_span(@actor[:website]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :reel, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :reel, :class => 'form-control', :placeholder => "optional" %>
+    </div>
+    <%= error_span(@actor[:reel]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :student, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :student, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:student]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :expected_grad, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :expected_grad, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:expected_grad]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :skills, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_area :skills, :class => 'form-control' %>
+    </div>
+    <%= error_span(@actor[:skills]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :previous_experience, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_area :previous_experience, :class => 'form-control', :placeholder => "optional" %>
+    </div>
+    <%= error_span(@actor[:previous_experience]) %>
+  </div>
+
+
+  <%= f.submit nil, :class => 'btn btn-primary' %>
+  <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+            actors_path, :class => 'btn btn-default' %>
+
+<% end %>

@@ -1,0 +1,53 @@
+<%- model_class = Actor -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:first_name) %>:</strong></dt>
+  <dd><%= @actor.first_name %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:last_name) %>:</strong></dt>
+  <dd><%= @actor.last_name %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:email) %>:</strong></dt>
+  <dd><%= @actor.email %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:phone) %>:</strong></dt>
+  <dd><%= @actor.phone %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:city_of_residence) %>:</strong></dt>
+  <dd><%= @actor.city_of_residence %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:sex_id) %>:</strong></dt>
+  <dd><%= @actor.sex_id %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:ethnicity_id) %>:</strong></dt>
+  <dd><%= @actor.ethnicity_id %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:height) %>:</strong></dt>
+  <dd><%= @actor.height %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:age_min) %>:</strong></dt>
+  <dd><%= @actor.age_min %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:age_max) %>:</strong></dt>
+  <dd><%= @actor.age_max %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:hair_color) %>:</strong></dt>
+  <dd><%= @actor.hair_color %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:eye_color) %>:</strong></dt>
+  <dd><%= @actor.eye_color %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:website) %>:</strong></dt>
+  <dd><%= @actor.website %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:reel) %>:</strong></dt>
+  <dd><%= @actor.reel %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:student) %>:</strong></dt>
+  <dd><%= @actor.student %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:expected_grad) %>:</strong></dt>
+  <dd><%= @actor.expected_grad %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:skills) %>:</strong></dt>
+  <dd><%= @actor.skills %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:previous_experience) %>:</strong></dt>
+  <dd><%= @actor.previous_experience %></dd>
+</dl>
+
+<%= link_to t('.back', :default => t("helpers.links.back")),
+              actors_path, :class => 'btn btn-default'  %>
+<%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_actor_path(@actor), :class => 'btn btn-default' %>
+<%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              actor_path(@actor),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>

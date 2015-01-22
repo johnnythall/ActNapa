@@ -1,0 +1,94 @@
+id,first_name,last_name,email,phone,city_of_residence,sex_id,ethnicity_id,height,age_min,age_max,hair_color,eye_color,website,reel,student,expected_grad,skills,previous_experience
+0,Test,User,Test@test.com,555-555-5555,Testland ,0,White,71,18,30,Test color,Test color,Test.com,test.imdb.com,true,2015,Testing,None
+1,Spencer,Johnson,afrojustice88@yahoo.com,707-815-0637,"Angwin, CA",0,Black or African American,77,20,30,black,brown,,,false,,"Can dislocate both shoulders
+Singing--baritone
+Percussion--battery, timpani","Reverend Paris--The Crucible
+Caliban, Antonio, Ariel--The Tempest"
+2,Jackson,Ausmus,ausmusjs@gmail.com,541-480-0289,"Angwin, CA",0,White,70,16,27,brown,grey/dark blue,,,false,,"singing I guess?
+Playing piano
+playing trombone
+versatile with acting skills","The Deal, by Mark Soderblom and Jonathan Thall
+Cereal Killer, by Kaitlyn Robertson
+Show and Tell, by Kingsley Pascal
+Absent Minded, by Mark Soderblom and Johnathan Thall
+also I was in DAS one year."
+3,Camilo,Nazar,rentedbeatle@gmail.com,956-407-0928,"Angwin, CA",0,Hispanic or Latino,67,20,25,Dark brown,Hazel,,,true,2016,Speak Spanish,
+4,Edmarie ,Billosillo,ezbillosillo@puc.edu,619-796-9975,"Chula Vista, CA",1,Asian,61,18,30,black,brown,,,true,2017,I play piano.,
+5,Hannah,Barnes,queenhannahthefirst@hotmail.com,818-641-3215,"Glendale, CA",1,White,69,18,99,Brunette ,Hazel,,,true,2018,"Character Actor (among others) 
+","4 years of high school drama:
+Grease- Rizzo
+Beauty & The Beast- Madame de la Grande Bouche (or the Wardrobe)
+Cast Member of You're a Good Man Charlie Brown at PUC: Lucy"
+6,Maggie,Molina,mmmolina@puc.edu,480-340-6904,"Angwin, CA",1,Hispanic or Latino,64,16,20,Brown,Brown,,,true,2018,I did gymnastics,I was part of my high school drama department... For a short period of time
+7,Angel,Castillo,ascastillo@puc.edu,323-945-0625,"Angwin, CA",0,Hispanic or Latino,68,16,30,black,dark brown,,,true,2018,"I do impressions. I do Accents. (one accent possibly) Many cartoon impressions Im willing. Play Ukulele, guitar, whistle (little bit of piano, harmonica, violin, clarinet, sing)  Ride Horses Drive Car","Skits and Plays at church
+2 different roles in 2 different years at a 3 night play at summer camp
+currently taking drama acting fundamentals"
+8,Matthew,Núñez,mdnunez@puc.edu,1818-636-5352,Angwin CA,0,Hispanic or Latino,71,20,50,Brown/red,brown,,,true,2019,"I can speak English,Spanish, and Portuguese. Pretty good at directions. Can make some mean wallets with Duct tape.","Glendale Adventist Academy and elementary since 5th grade to senior year. Played as minor roles like the Huns in the Mulan play, to major roles like Scrooge in A Christmas Carol. Went to New York with the troop and attended a professional acting class. "
+9,Arve,Lloren,adclloren@puc.edu,909-725-3458,"Angwin, CA",1,Asian,60,18,30,Black,Brown,,,true,June 2015,"Sing, cook, knit, live, eat, be spontaneous, drive a car and motorcycle, type...",Andrew Lloren's class projects and skits at church and summer camp.
+10,Zana,Parish,zanap96@gmail.com,646-592-0147,"Angwin, CA",1,Black or African American,64,16,23,Brown,Brown,,,true,2016,"Singing, writing (stories, and poetry)","Charlotte in Charlotte's Web
+"
+11,Alexandra,Smith,aksmith96@hotmail.com,571-429-5286,"Angwin, CA",1,Black or African American,66,14,25,Black,Brown,,,true,2018,"Singing
+French proficiency",
+12,Heidi,Beckner,hmbeckner@puc.edu,541-259-9803,Medford (OR),1,White,66,15,40,Sandy Blonde,Hazel Green,,,true,2018,"A genuine passion behind acting/performing. (It becomes ""real"" to me.) I have memorized whole plays a number of times just by listening through rehearsals. ",Vacation Bible School. Christmas plays. etc.
+13,Miles,Robinson,mls_robinson@yahoo.com,773-726-3390,"Angwin, CA",0,Black or African American,76,18,30,Black,Brown,,,true,2016,"Martial arts, Fencing, ","Second City acting program Chicago, UNLV acting group. "
+14,jesse,breise,jessebreise@gmail.com,480-828-8108,"Phoenix, AZ",0,White,68,16,25,brown,blue,,,true,2018,martial artist. ,senior year i was the narrator for our main christmas play
+15,Grace,Romstad,geromstad@puc.edu,209-663-0524,"Angwin, CA",1,White,68,18,30,Red,Hazel,,,true,june 2016,"improv, basic dance, basketball, fencing, guitar, ","several full stage productions, 24 hour play festivals, student films, 4 years of improv"
+16,Austin ,Scarpino,ajscarpino@puc.edu,360-333-9652,"Angwin, CA",0,White,71,18,35,Brown,Hazel,,,true,2016,Positive Personality. Great with direction. I have been playing guitar for 7 years and can sing. I have played college hockey at my old university (Ice). ,"I performed in the Missoula Children's theatre in grade school. I took a drama class my freshman year of high school and in my sophomore year, I was Scrooge in ""A Christmas Carol."" I have performed in various film projects since attending PUC. "
+17,Brittnie,Sigamoney,bsigamoney,707-337-7898,"Napa, CA",1,White,66,25,35,Red,Brown,,,true,2010,"British Accent
+Cuban Accent
+Indian Accent
+Voice Over experience
+Ukulele
+Can sing, soprano 2
+Good whistler
+","High school play - I played the ""six fingered woman"" in the Princess Bride. :)"
+18,Bianca ,Erghelegiu,helegb@gmail.com,951-452-4446,"Angwin, CA",1,White,67,16,38,Brown ,Brown ,,,true,March 2016 ,I am able to easily adapt to the character I am asked to act. I also have a facility to learn fast what I am taught. I always try to get as much information possible about the character I am playing so ),I have acted in short films directed by students from Pacific Union College. Experience that I really enjoyed and I am looking forward to more. 
+19,Yuliya,Belikova,JBelikova@gmail.com,916-524-0059 ,"Sacramento, CA",1,White,67,15,30,Dirty Blonde,Blue,,,true,2017,"Speak Russian 
+Juggle 
+Music (piano, guitar, etc.)
+Ride a bike 
+Russian accent 
+I can make myself cry 
+Draw 
+",High School Plays / Musicals 
+20,Briana,Gutierrez,bagutierrez@puc.edu,562-665-0637,"Angwin, CA",1,White,63,15,30,Blonde,Blue,Coming Soon ,,true,2016/2017,"Speaks Spanish
+Country Accent
+Able to Ride a Bike
+Photography
+Driven
+Passionate",That one time at drama camp....
+21,Ellie,Vargas,elvargas@puc.edu,909-287-6123,"Chino, CA",1,Hispanic or Latino,62,15,25,Brown ,Brown ,,,true,2016,I am a physics major so if you need anybody to nitpick your science-y scripts I'm your girl. But other than that I can play guitar and ride a bike and (ugly) cry on demand and overtone sing. I can do accents like Irish and London (RP) and Russian and Scottish (more difficult). I also have a lot (like a lot) of energy. ALL THE TIME. full burn or nothing.,"I was the squirrel in the SA video. other than that, nah. "
+22,andrei,moldovan,andreimoldovan1990@gmail.com,916-206-5911,"Angwin, CA",0,White,70,16,26,black,brown ,,,true,2018,"Fluent in Romanian
+Eager to learn
+",
+23,Harrison,Cale,harsvision10@yahoo.com,805-503-8324,"Arroyo Grande, CA",0,White,72,16,30,Blonde,Green,,,true,2016,"Conversational sign language, art, literature, drama TA, small amounts of Spanish and French, sing.","Lots of stuff, refer to past films in the film department library."
+24,Mark,Soderblom,mdsoderblom@puc.edu,909-801-4332,"Angwin, CA",0,White,74,18,25,Blond,Blue,,,true,2017,"Guitar
+Flute
+Tap Dance
+Theater Waltz
+Vocal Performance
+Basic Spanish
+Proficient Tennis Pro
+Accents
+Theater Tech Operations",See theatrical resume.
+25,Tracee,Beebe,tracee.acorn2oak@gmail.com,707-337-5582,"St. Helena, CA",1,White,67,18,99,Gray,Hazel,,,false,,"Horse Riding, Swimming, Animal Handling, Improv",
+26,Joy,Paulson,jepaulson@pucprep.org,707-339-3051,"Angwin, CA",1,White,69,14,20,Blonde,Blue,,,true,2018 (High School),"I play guitar, drums, etc, I'm good with computers, reasonably dramatic",
+27,marina,maia,mlmaia@pucprep.org,707-492-2544,"Angwin, CA",1,Hispanic or Latino,67,14,20,brown,brown,,,false,,singing,i have helped in two student projects.
+28,Josue ,Tobar,jatobar@puc.edu,707-339-1107,"Palmdale, CA",0,Hispanic or Latino,70,20,30,Dark Brown,Dark Brown,,,true,2015,"French, Spanish, some knowledge of physics, beginner level at alto sax",small roles in small sketches
+29,Michael,Kuo,michaelkuo5799@gmail.com,213-400-8100,"Monterey Park, CA",0,Asian,73,20,45,Black,Hazel,,,true,2015,"I can sing, play piano, speak mandarin, I know excel word and powerpoint.
+I can do calculus cause I'm asian.
+Riding a bike, riding two bikes at once. 
+Take off my socks with my feet half awake
+Take off your socks with my feet while you're half awake.
+",n/a
+30,Megan,Byrd,mebyrd@puc.edu,408-656-3256,"Angwin, CA",1,White,66,18,30,dark brown and blue,blue,,,true,2018,Singing,Plays and musicals in middle and high school
+31,Noura,Birkl,nlbirkl@puc.edu,530-515-9103,"Angwin, CA",1,german/lebanese,66,18,27,brown,green,,,true,2016,"I can speak several languages fluently.
+I used to take dance lessons.",Helped in another PUC film two years ago.
+32,Joe,Rios,suivant@pacbell.net,650-248-4202,"Sunnyvale, CA",0,Mixed Latin-White,69,45,55,Brown,Brown,coming,,false,,"drummer, swimmer, martial arts, social dance, sing","the Concierge-short
+the Forest of Cumbria-short
+SF Opera supernumerary Wagner
+HBO extra Hemingway and Gellhorn
+the Odd Couple-Altarena Theatre
+Merchant on Venice-Mountain View Theatre
+3 years of Meisner
+Improve and other classes in Bay Area"
